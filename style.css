@@ -57,15 +57,18 @@ nav a {
 
 .redes #face :hover{
   color: blue;
+  transition: .5s;
 }
 
 .redes #insta :hover{
-  color: rgb(190, 38, 178);  
+  color: rgb(190, 38, 178);
+  transition: .5s;
   
 }
 
 .redes #twi :hover{
   color: rgb(0, 110, 255);
+  transition: .5s;
 }
 
 

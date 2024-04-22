@@ -9,8 +9,7 @@ body {
   margin: 0 120px;
 }
 
-header {
-  position:static;
+header {  
   height: 160px;
   background: black;
   padding: 0 50px;

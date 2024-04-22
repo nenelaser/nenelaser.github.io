@@ -10,6 +10,7 @@ body {
 }
 
 header {
+  position:fixed;
   height: 160px;
   background: black;
   padding: 0 50px;

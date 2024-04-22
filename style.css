@@ -50,6 +50,7 @@ nav a {
   width: 30px;
   color: white;
   font-size: 25px;
+
 }
 
 
@@ -61,7 +62,7 @@ nav a {
 }
 
 .redes #insta :hover{
-  color: rgb(190, 38, 178);
+  color: rgb(190, 38, 178);  
   transition: .5s;
   
 }
@@ -390,7 +391,7 @@ p {
 
 
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 912px) {
 
 
   body {

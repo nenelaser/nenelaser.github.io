@@ -137,6 +137,7 @@ nav a:hover,
   height: 10em;
   margin-top: -5em;
   width: 100%;
+  animation: neon2 1.5s ease-in-out infinite alternate;
 
 }
 

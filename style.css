@@ -165,8 +165,6 @@ p {
   font-family: 'Noto Sans', sans-serif;
   font-size: 16px;
   padding: 0px 20px;
-
-
 }
 
 
@@ -174,8 +172,27 @@ p {
   font-size: 2em;
 }
 
+
 #secundarias {
   font-size: 3em;
+}
+
+
+.container_footer{ 
+  padding-top: 10px;
+  background-color: black;
+  height: 100px;
+  text-align: center;
+}
+
+
+.container_footer i{
+  color: green;
+}
+
+
+.container_footer p,address,small{
+  color: white;
 }
 
 

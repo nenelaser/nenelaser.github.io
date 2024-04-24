@@ -179,9 +179,9 @@ p {
 
 
 .container_footer{ 
-  padding-top: 10px;
+  padding: 20px 0px 0px 5px;
   background-color: black;
-  height: 100px;
+  height: 150px;
   text-align: center;
 }
 

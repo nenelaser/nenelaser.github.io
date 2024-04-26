@@ -655,3 +655,17 @@ p {
     margin: 0;
   }
 }
+
+
+@media screen and (max-width: 390px ) {
+
+   .redes{
+    display: inline-flex;
+
+   }
+
+  .redes a{
+    padding: 0 5px;
+  }
+  
+}

@@ -65,7 +65,9 @@ nav a {
 }
 
 
-
+#twi i{
+  font-size: 18px;
+}
 
 .redes #face :hover{
   color: blue;

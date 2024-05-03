@@ -89,6 +89,12 @@ nav a {
 }
 
 
+ .redes #you :hover{
+  color: red;
+  transition: .5s;
+ }
+
+
 
 
 

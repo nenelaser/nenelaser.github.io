@@ -64,13 +64,15 @@ nav a {
 
 }
 
-#you{
-  font-size:24px;
-}
 
 #twi i{
   font-size: 18px;
 }
+
+#you i{
+  font-size:24px;
+}
+
 
 .redes #face :hover{
   color: blue;

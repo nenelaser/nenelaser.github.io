@@ -60,36 +60,18 @@ nav a {
 .redes a i{
   width: 30px;
   color: white;
-  font-size: 20px;
+  font-size: 19px;
 
+}
+
+#you i{
+  font-size:18px;
 }
 
 
 #twi i{
   font-size: 18px;
 }
-
-#you i{
-  font-size:24px;
-}
-
-
-.redes #face :hover{
-  color: blue;
-  transition: .5s;
-}
-
-.redes #insta :hover{
-  color: rgb(190, 38, 178);  
-  transition: .5s;
-  
-}
-
-.redes #twi :hover{
-  color: rgb(76, 78, 80);
-  transition: .5s;
-}
-
 
  .redes #you :hover{
   color: red;
@@ -98,7 +80,23 @@ nav a {
 
 
 
+.redes #face :hover{
+  color: blue;
+  transition: .5s;
+}
 
+
+.redes #twi :hover{
+  color: rgb(76, 78, 80);
+  transition: .5s;
+}
+
+
+.redes #insta :hover{
+  color: rgb(190, 38, 178);  
+  transition: .5s;
+  
+}
 
 
 .mostrar-menu:hover,

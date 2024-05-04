@@ -556,7 +556,7 @@ p {
   }
 
   .redes a {
-    padding-right: 5px;
+    padding: 4px;
   }
 
 
@@ -683,7 +683,7 @@ p {
    }
 
   .redes a{
-    padding: 0 5px;
+    padding: 4px;
   }
   
 }

@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto | Viaje pal Pueblo</title>
+    <meta name="description" content="Contacto con Viaje pal Pueblo. Comparte tus historias, sugerencias de destinos o comentarios sobre las crónicas.">
+
+    <link rel="stylesheet" href="style.css">
+
+   
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Archivo+Black&family=Passion+One:wght@400;700;900&family=Russo+One&family=Staatliches&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+</head>
+
+<body id="body_principal" class="pagina-contacto">
+    <header>
+        <div id="container-navegacion" class="container_header">
+            <nav class="menu">
+                <ul>
+                    <li><a href="index.html"><i class="bi bi-house-fill"></i></a></li>
+                    <li><a href="cronicas.html">Crónicas</a></li>
+                    <li><a href="galeria.html">Galería</a></li>
+                    <li><a href="contacto.html">Contacto</a></li>
+                    <li class="slider"></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="contacto-revista">
+        <section class="contacto-marquesina">
+            <div class="contacto-marquesina__texto">           
+                <h1 class="contacto-titulo">Formulario</h1>
+                <p class="contacto-bajada">
+                    ¿Tienes dudas, sugerencias o quieres compartir tu experiencia? Escríbenos y con gusto te responderemos.
+                </p>
+            </div>
+        </section>
+
+        <section class="contacto-section">
+            <form class="contacto-formulario" 
+                  action="https://formsubmit.co/viajepalpueblo@gmail.com" 
+                  method="POST" autocomplete="off">
+
+                <div class="contacto-campos">
+                    <div class="contacto-campo">
+                        <label for="nombre">Nombre</label>
+                        <input type="text" id="nombre" name="nombre" required placeholder="Tu nombre">
+                    </div>
+
+                    <div class="contacto-campo">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" required placeholder="tu@email.com">
+                    </div>
+
+                    <div class="contacto-campo">
+                        <label for="telefono">Teléfono</label>
+                        <input type="tel" id="telefono" name="telefono" placeholder="Tu teléfono">
+                    </div>
+
+                    <div class="contacto-campo">
+                        <label for="asunto">Asunto</label>
+                        <input type="text" id="asunto" name="asunto" placeholder="¿De qué quieres hablar?">
+                    </div>
+
+                    <div class="contacto-campo contacto-campo--textarea">
+                        <label for="mensaje">Mensaje</label>
+                        <textarea id="mensaje" name="mensaje" required placeholder="Tu mensaje..."></textarea>
+                    </div>
+
+                    <button type="submit" class="contacto-btn">Enviar mensaje</button>
+                </div>
+            </form>
+        </section>
+    </main>
+
+</body>
+</html>
